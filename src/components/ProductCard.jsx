@@ -3,8 +3,8 @@ import React from 'react';
 
 const ProductCard = ({ product }) => {
   return (
-    <div className="bg-white shadow-xl rounded-2xl p-4 w-full sm:w-72 max-w-full">
-      <img src={product.imageUrl} alt={product.name} className="w-full h-60 sm:h-72 object-cover rounded-xl mb-4" />
+    <div className="bg-white shadow-xl rounded-2xl p-4 w-72 max-w-full">
+      <img src={product.imageUrl} alt={product.name} className="w-full h-72 object-cover rounded-xl mb-4" />
       <h3 className="font-semibold text-lg capitalize">{product.name}</h3>
       <p className="text-sm text-black-600">{product.brand}</p>
       <div className="flex justify-between items-center mt-2">
